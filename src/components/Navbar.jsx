@@ -113,10 +113,11 @@ const Navbar = () => {
             <NavLink
               to="home"
               smooth={true}
-              className="flex items-center gap-2 px-4 pt-7 text-2xl font-medium text-[#00df9a] transition-all delay-300 ease-out hover:cursor-pointer"
+              className="flex items-center gap-2 px-4 pt-[1.8rem] text-2xl font-medium text-[#00df9a] transition-all delay-300 ease-out hover:cursor-pointer"
               onClick={closeMenu}
             >
-              <FaLaptopCode className="size-10 text-5xl text-primary" />
+              <CgGym className="size-10 text-5xl text-primary" />
+              <h1 className=" font-bold text-white ">Gym</h1>
             </NavLink>
             <ul className="flex flex-col space-y-10 px-4 pt-10 font-normal">
               {tabs.map((tab, index) => (

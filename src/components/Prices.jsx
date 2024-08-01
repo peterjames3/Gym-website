@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { prices } from "../prices";
+import { Link } from 'react-router-dom'
 
 const Pricing = () => {
   const [isPricing, setIsPricing] = useState(false);
   const handlePrices = () => {
     setIsPricing((preValue) => !preValue);
   };
-  console.log(isPricing);
+  
   return (
     <section className="my-20 w-full">
       <div className="space-y-3 text-center">
@@ -76,9 +77,11 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-          {/*   <button className="btn btn--secondary">
-              {plan.buttonText}
-            </button> */}
+            <div>
+              <Link className="btn btn--secondary" to="/contact">
+                {plan.buttonText}
+              </Link>
+            </div>
           </div>
         ))}
       </div>

@@ -17,7 +17,7 @@ const Whyus = () => {
       </div>
       <div className="bg mx-auto mt-0 grid min-h-[40rem] max-w-[1400px] grid-cols-1 gap-5 px-5 py-2 ss:grid-cols-3">
         <div className="flex flex-col justify-between *:rounded-2xl *:border *:border-primary *:text-center">
-          <div className="space-y-3 bg-slate-700 py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
+          <div className="space-y-3 bg-cardbg py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
             <h4 className="text-2xl">Qualfied Trainers</h4>
             <p className="text-xl text-white">
               {" "}
@@ -25,7 +25,7 @@ const Whyus = () => {
               tailored programs, focusing on strength,
             </p>
           </div>
-          <div className="space-y-3 bg-slate-700 py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
+          <div className="space-y-3 bg-cardbg py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
             <h4 className="text-2xl">Personal Trainers</h4>
             <p className="text-xl">
               {" "}
@@ -43,7 +43,7 @@ const Whyus = () => {
           /> */}
         </div>
         <div className="flex flex-col justify-between *:rounded-2xl *:border *:border-primary *:text-center">
-          <div className="space-y-3 bg-slate-700 py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
+          <div className="space-y-3 bg-cardbg py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
             <h4 className="text-2xl">Flexible Time</h4>
             <p className="text-xl">
               {" "}
@@ -51,7 +51,7 @@ const Whyus = () => {
               ensuring you can work out when it's most convenient for you.
             </p>
           </div>
-          <div className="space-y-3 bg-slate-700 py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
+          <div className="space-y-3 bg-cardbg py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
             <h4 className="text-2xl">Community</h4>
             <p className="text-xl">
               {" "}
