@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  position: relative;
+  background-image: url("/src/assets/whyus.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+  @apply text-xl bg-primary border hover:text-primary border-primary rounded-md  hover:cursor-pointer hover:bg-transparent text-white transition-all delay-300
+}
+.btn--primary{
+  @apply py-3 px-12
+}
+.btn--secondary{
+  @apply py-3 px-10
+}
+.wrapper{
+  @apply mx-auto mt-4 max-w-[1400px]
+}
+
+
+/* Spinner.css */
+.spinner-overlay {
+  position: fixed;
+  inset: 0;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.inpage {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.spinner-container {
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 6px solid blue;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pagination-container {
+  list-style-type: none;
+}
