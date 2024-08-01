@@ -1,8 +1,8 @@
 import React from "react";
-import log1 from "../assets/a-1.png";
-import log2 from "../assets/b-1.png";
-import log3 from "../assets/c-1.png";
-import log4 from "../assets/d-1.png";
+import log1 from "../assets/a-1.webp";
+import log2 from "../assets/b-1.webp";
+import log3 from "../assets/c-1.webp";
+import log4 from "../assets/d-1.webp";
 
 const Features = () => {
   return (

@@ -1,9 +1,9 @@
-import weight from './assets/weight.jpg'
-import gymE from './assets/still-life-gym-equipment.jpg'
-import Dumbbell from './assets/dumbbells.jpg'
-import kettlebells from './assets/close-up-kettlebells-gym.jpg'
-import gym3d from './assets/3d-gym-equipment.jpg'
-import pilated from './assets/pilates-class-equipment-bench.jpg'
+import weight from './assets/weight.webp'
+import gymE from './assets/still-life-gym-equipment.webp'
+import Dumbbell from './assets/dumbbells.webp'
+import kettlebells from './assets/close-up-kettlebells-gym.webp'
+import gym3d from './assets/3d-gym-equipment.webp'
+import pilated from './assets/pilates-class-equipment-bench.webp'
 
 const images = [
     {

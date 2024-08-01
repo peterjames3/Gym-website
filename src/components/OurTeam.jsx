@@ -1,8 +1,8 @@
 import React from "react";
-import yogaT from "../assets/coach1.jpg";
-import coach2 from "../assets/coach2.jpg";
-import coach3 from "../assets/coach3.jpg";
-import coach4 from "../assets/coach4.jpg";
+import yogaT from "../assets/coach1.webp";
+import coach2 from "../assets/coach2.webp";
+import coach3 from "../assets/coach3.webp";
+import coach4 from "../assets/coach4.webp";
 import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { IoLogoLinkedin } from "react-icons/io";

@@ -1,5 +1,5 @@
 import React from "react";
-import faqImg from "../assets/fitness-bicycles.jpg";
+import faqImg from "../assets/fitness-bicycles.webp";
 
 const FAQ = () => {
   return (

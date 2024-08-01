@@ -1,8 +1,8 @@
 import React from "react";
-import cardio from "../assets/cardio.jpg";
-import crossfit from "../assets/crossfit-workout.jpg";
-import boxing from "../assets/couple-boxing-gym.jpg";
-import workout from "../assets/workout.jpg";
+import cardio from "../assets/cardio.webp";
+import crossfit from "../assets/crossfit-workout.webp";
+import boxing from "../assets/couple-boxing-gym.webp";
+import workout from "../assets/workout.webp";
 
 const services = [
   {

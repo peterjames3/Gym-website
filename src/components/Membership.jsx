@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from "../assets/contactus.jpg";
+import heroImg from "../assets/contactus.webp";
 const Membership = () => {
   return (
     <section className="to-gray-green-800 relative h-[30rem] bg-gradient-to-r from-black to-gray-700">

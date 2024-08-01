@@ -1,5 +1,5 @@
-import location from './assets/cloud_5591452.png'
-import phone from './assets/phone-call_455705.png'
+import location from './assets/cloud_5591452.webp'
+import phone from './assets/phone-call_455705.webp'
 const contactinfo = [
     {
         type: 'Email',

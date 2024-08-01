@@ -6,7 +6,7 @@ const CTA = () => {
     <section
       className="relative my-20 w-full py-10"
       style={{
-        backgroundImage: `url('/src/assets/coach4.jpg')`,
+        backgroundImage: `url('/src/assets/coach4.webp')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",

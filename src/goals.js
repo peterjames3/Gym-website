@@ -1,7 +1,7 @@
-import GoalIcon from './assets/goal.png';
-import TrainingPlanIcon from './assets/trainingIcon.png';
-import WorkHardIcon from './assets/WorkHard.png';
-import ResultIcon from './assets/ResultIcon.png';
+import GoalIcon from './assets/goal.webp';
+import TrainingPlanIcon from './assets/trainingIcon.webp';
+import WorkHardIcon from './assets/WorkHard.webp';
+import ResultIcon from './assets/ResultIcon.webp';
 export const goals = [
     {
         icon: GoalIcon,

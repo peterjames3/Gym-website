@@ -1,8 +1,8 @@
 
-import southbImg from './assets/southb.jpg';
-import parklandsImg from './assets/parklands.jpg';
-import kisumuImg from "./assets/contactus.jpg";
-import ThikaImg from "./assets/About-equipment.jpg";
+import southbImg from './assets/southb.webp';
+import parklandsImg from './assets/parklands.webp';
+import kisumuImg from "./assets/contactus.webp";
+import ThikaImg from "./assets/About-equipment.webp";
 export const locationF = [
     {
         icon: ThikaImg,

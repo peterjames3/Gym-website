@@ -1,5 +1,5 @@
 import React from "react";
-import whyusImg from "../assets/whyus.jpg";
+import whyusImg from "../assets/whyus.webp";
 
 const Whyus = () => {
   return (
