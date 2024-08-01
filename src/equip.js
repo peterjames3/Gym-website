@@ -9,7 +9,7 @@ const images = [
     {
         title: 'Weight Training',
         src: weight,
-        alt: 'Weight Training'
+        alt: 'Weight Training '
     },
     {
         title: 'Tools',
