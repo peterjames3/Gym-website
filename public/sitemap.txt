@@ -1,0 +1,7 @@
+https://kimgym.netlify.app/
+https://kimgym.netlify.app/Home
+https://kimgym.netlify.app/About
+https://kimgym.netlify.app/Trainers
+https://kimgym.netlify.app/Location
+https://kimgym.netlify.app/Pricing
+https://kimgym.netlify.app/Contact

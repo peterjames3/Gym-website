@@ -1,8 +1,8 @@
-import React from "react";
 import { CgGym } from "react-icons/cg";
 import { GrYoga } from "react-icons/gr";
 import { GiMuscleUp } from "react-icons/gi";
 import { GiJumpingRope } from "react-icons/gi";
+
 const Program = () => {
   return (
     <section className="mt-20 w-full">
@@ -11,8 +11,8 @@ const Program = () => {
           <div className="w-full font-body text-5xl font-bold text-white sm:w-1/2">
             <h3>
               The Best Services We
-              <span class="relative mr-1 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-orange-700">
-                <span class="relative text-white">Offers </span>
+              <span className="relative mr-1 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-orange-700">
+                <span className="relative text-white">Offer </span>
               </span>
               For You
             </h3>
@@ -20,19 +20,22 @@ const Program = () => {
           <div className="w-full text-2xl leading-[2rem] text-textColor sm:w-1/2">
             <p>
               We offer a wide range of comprehensive fitness programs designed
-              to cater to individuals of all fitness levels. Our aim to help you
-              achieve specific goals & maximize results.
+              to cater to individuals of all fitness levels. Our aim is to help
+              you achieve specific goals & maximize results.
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 place-items-center gap-10 px-5 py-8 *:rounded-xl ss:grid-cols-2 md:grid-cols-4">
+        <div className="grid grid-cols-1 place-items-center gap-10 rounded-xl px-5 py-8 ss:grid-cols-2 md:grid-cols-4">
           <div className="group space-y-5 bg-cardbg p-4 transition-all delay-300 hover:cursor-pointer hover:bg-secondary">
-            <nav className="grid size-16 place-items-center rounded-full border border-primary">
+            <nav
+              className="grid size-16 place-items-center rounded-full border border-primary"
+              aria-label="Strength Training"
+            >
               <CgGym className="text-5xl text-primary" />
             </nav>
             <h4 className="text-2xl text-white transition-all delay-300 group-hover:text-textColor">
-              Strenght Training
+              Strength Training
             </h4>
             <p className="text-xl text-textColor transition-all delay-300 group-hover:text-textColor">
               Our certified trainers create customized workout plans that help
@@ -40,20 +43,26 @@ const Program = () => {
             </p>
           </div>
           <div className="group space-y-5 bg-cardbg p-4 transition-all delay-300 hover:cursor-pointer hover:bg-secondary">
-            <nav className="grid size-16 place-items-center rounded-full border border-primary">
+            <nav
+              className="grid size-16 place-items-center rounded-full border border-primary"
+              aria-label="Yoga Training"
+            >
               <GrYoga className="text-5xl text-primary" />
             </nav>
             <h4 className="text-2xl text-white transition-all delay-300 group-hover:text-textColor">
               Yoga Training
             </h4>
-            <p className="line-clamp-5 transform text-xl text-textColor transition-all delay-300 duration-300 ease-in-out hover:line-clamp-6 group-hover:text-textColor">
+            <p className="text-xl text-textColor transition-all delay-300 group-hover:text-textColor">
               Experience the transformative power of yoga with our personalized
               sessions, designed to enhance flexibility, reduce stress, and
               improve overall well-being.
             </p>
           </div>
           <div className="group space-y-5 bg-cardbg p-4 transition-all delay-300 hover:cursor-pointer hover:bg-secondary">
-            <nav className="grid size-16 place-items-center rounded-full border border-primary">
+            <nav
+              className="grid size-16 place-items-center rounded-full border border-primary"
+              aria-label="Body Building"
+            >
               <GiMuscleUp className="text-5xl text-primary" />
             </nav>
             <h4 className="text-2xl text-white transition-all delay-300 group-hover:text-textColor">
@@ -66,7 +75,10 @@ const Program = () => {
             </p>
           </div>
           <div className="group space-y-5 bg-cardbg p-4 transition-all delay-300 hover:cursor-pointer hover:bg-secondary">
-            <nav className="grid size-16 place-items-center rounded-full border border-primary">
+            <nav
+              className="grid size-16 place-items-center rounded-full border border-primary"
+              aria-label="Weight Loss"
+            >
               <GiJumpingRope className="text-5xl text-primary" />
             </nav>
             <h4 className="text-2xl text-white transition-all delay-300 group-hover:text-textColor">

@@ -1,6 +1,3 @@
-import React from "react";
-import whyusImg from "../assets/whyus.webp";
-
 const Whyus = () => {
   return (
     <section className="my-20 w-full">
@@ -34,21 +31,14 @@ const Whyus = () => {
             </p>
           </div>
         </div>
-        <div>
-          {/*  <img
-            src={ToolsImg}
-            alt="img"
-            loading="lazy"
-            className="h-[40rem] rounded-3xl"
-          /> */}
-        </div>
+        <div></div>
         <div className="flex flex-col justify-between *:rounded-2xl *:border *:border-primary *:text-center">
           <div className="space-y-3 bg-cardbg py-4 text-white xs:px-1 ss:bg-transparent md:px-4">
             <h4 className="text-2xl">Flexible Time</h4>
             <p className="text-xl">
               {" "}
               We offer flexible scheduling options to fit your busy lifestyle,
-              ensuring you can work out when it's most convenient for you.
+              ensuring you can work out when it&apos;s most convenient for you.
             </p>
           </div>
           <div className="space-y-3 bg-cardbg py-4 text-white xs:px-1 ss:bg-transparent md:px-4">

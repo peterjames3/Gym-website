@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import { useEffect} from "react";
 import { useLocation } from 'react-router-dom'
 import { motion } from "framer-motion";
 import AboutHero from "../components/AboutHero";
@@ -7,6 +7,7 @@ import OurTeam from "../components/OurTeam";
 import Services from '../components/Services'
 import CTA from '../components/CTA'
 import AboutComponent from '../components/AboutComponent'
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
     const location = useLocation();
@@ -14,19 +15,29 @@ const About = () => {
     window.scrollTo(0, 0); // Reset scroll position to top
   }, [location]);
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="relative"
-    >
-      <AboutHero />
-      <Achevements />
-      <AboutComponent />
-      <OurTeam />
-      <Services />
-      <CTA />
-    </motion.section>
+    <>
+      <Helmet>
+        <title>About Us - KimGym</title>
+        <meta
+          name="description"
+          content="Learn more about KimGym, our achievements, team, and the services we offer. Discover why we're the right fitness partner for you."
+        />
+        <link rel="canonical" href="https://kimgym.netlify.app/about" />
+      </Helmet>
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="relative"
+      >
+        <AboutHero />
+        <Achevements />
+        <AboutComponent />
+        <OurTeam />
+        <Services />
+        <CTA />
+      </motion.section>
+    </>
   );
 };
 

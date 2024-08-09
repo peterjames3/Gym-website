@@ -1,4 +1,3 @@
-import React from "react";
 import AboutImg from "../assets/about.webp";
 import { Link } from "react-router-dom";
 
@@ -9,7 +8,7 @@ const AboutComponent = () => {
         <div className="h-[40rem] w-full overflow-hidden rounded-md sm:w-1/2 md:w-[70%]">
           <img
             src={AboutImg}
-            alt="/"
+            alt="about us image"
             loading="lazy"
             className="h-full w-full object-cover"
           />
@@ -19,7 +18,7 @@ const AboutComponent = () => {
             About us
           </h3>
           <h4 className="text-textColor ss:text-2xl md:text-3xl">
-            Welcome  to KimGym Nairobi's best gym experience.
+            Welcome to KimGym Nairobi&apos;s best gym experience.
           </h4>
           <p className="text-xl text-textColor ss:line-clamp-6 md:line-clamp-none md:leading-[2rem]">
             Our members enjoy 24/7 access to state-of-the-art facilities and

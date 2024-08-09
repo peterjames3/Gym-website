@@ -1,6 +1,5 @@
-import React from "react";
 import { CgGym } from "react-icons/cg";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,9 +10,9 @@ const Footer = () => {
             <div>
               <div className="flex items-center justify-center gap-4 text-teal-600 sm:justify-start">
                 <CgGym className="size-10 text-5xl text-primary" />
-                <h1 className="hidden text-3xl font-bold text-white md:flex">
+                <nav className="hidden text-3xl font-bold text-white md:flex">
                   Gym
-                </h1>
+                </nav>
               </div>
 
               <p className="mt-6 max-w-md text-center text-xl leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
@@ -224,7 +223,10 @@ const Footer = () => {
                         />
                       </svg>
 
-                      <Link to='/contact' className="flex-1 font-Lato text-xl text-textColor transition delay-300 hover:text-gray-200">
+                      <Link
+                        to="/contact"
+                        className="flex-1 font-Lato text-xl text-textColor transition delay-300 hover:text-gray-200"
+                      >
                         john@doe.com
                       </Link>
                     </a>

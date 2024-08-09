@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
-import AnimatedRoute from './components/AnimatedRoute'
+import AnimatedRoute from "./components/AnimatedRoute";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Aos from "aos";
@@ -18,14 +18,12 @@ function App() {
   return (
     <Router>
       <div>
-       
-          <section>
-            <Navbar />
-            <AnimatedRoute />
-            <ScrollToTop />
-            <Footer />
-          </section>
-      
+        <section>
+          <Navbar />
+          <AnimatedRoute />
+          <ScrollToTop />
+          <Footer />
+        </section>
       </div>
     </Router>
   );

@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link as ScrollLink } from "react-scroll";
 import { Link, NavLink } from "react-router-dom";
 import { CgGym } from "react-icons/cg";
 import { tabs } from "../tabs.js";
-import { FaLaptopCode } from "react-icons/fa";
+
 
 const Navbar = () => {
   // Component declaration was commented out
@@ -69,7 +69,7 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             <CgGym className="size-10 text-5xl text-primary" />
-            <h1 className="hidden font-bold text-white md:flex">Gym</h1>
+            <nav className="hidden font-bold text-white md:flex">Gym</nav>
           </NavLink>
         </nav>
 
@@ -117,7 +117,7 @@ const Navbar = () => {
               onClick={closeMenu}
             >
               <CgGym className="size-10 text-5xl text-primary" />
-              <h1 className=" font-bold text-white ">Gym</h1>
+              <nav className="font-bold text-white">Gym</nav>
             </NavLink>
             <ul className="flex flex-col space-y-10 px-4 pt-10 font-normal">
               {tabs.map((tab, index) => (

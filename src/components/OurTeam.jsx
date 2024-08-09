@@ -1,4 +1,3 @@
-import React from "react";
 import yogaT from "../assets/coach1.webp";
 import coach2 from "../assets/coach2.webp";
 import coach3 from "../assets/coach3.webp";
@@ -26,7 +25,7 @@ const OurTeam = () => {
           <div className="h-[90%]">
             <img
               src={coach2}
-              alt="/"
+              alt="benjamin image"
               loading="lazy"
               className="h-full w-full object-cover duration-300 ease-in-out hover:scale-105 hover:transform hover:cursor-pointer"
             />
@@ -47,7 +46,7 @@ const OurTeam = () => {
           <div className="h-[90%]">
             <img
               src={yogaT}
-              alt="/"
+              alt="Sophia image"
               loading="lazy"
               className="h-full w-full object-cover duration-300 ease-in-out hover:scale-105 hover:transform hover:cursor-pointer"
             />
@@ -68,7 +67,7 @@ const OurTeam = () => {
           <div className="h-[90%]">
             <img
               src={coach3}
-              alt="/"
+              alt="David image"
               loading="lazy"
               className="h-full w-full object-cover duration-300 ease-in-out hover:scale-105 hover:transform hover:cursor-pointer"
             />
@@ -89,7 +88,7 @@ const OurTeam = () => {
           <div className="h-[90%]">
             <img
               src={coach4}
-              alt="/"
+              alt="James image"
               loading="lazy"
               className="h-full w-full object-cover duration-300 ease-in-out hover:scale-105 hover:transform hover:cursor-pointer"
             />
